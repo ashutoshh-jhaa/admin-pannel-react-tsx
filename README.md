@@ -44,18 +44,72 @@ npm run preview
 
 ### Folder Structure (Typical)
 ```bash
-admin-react/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── routes/
-│   ├── App.tsx
-│   └── main.tsx
-├── tailwind.config.js
-├── tsconfig.json
-└── vite.config.ts
+admin-react
+├─ eslint.config.js
+├─ index.html
+├─ package-lock.json
+├─ package.json
+├─ public
+│  └─ vite.svg
+├─ README.md
+├─ src
+│  ├─ App.tsx
+│  ├─ components
+│  │  ├─ analytics
+│  │  │  ├─ AIPoweredInsights.tsx
+│  │  │  ├─ ChannelPerformance.tsx
+│  │  │  ├─ CustomerSegmentation.tsx
+│  │  │  ├─ OverviewCards.tsx
+│  │  │  ├─ ProductPerformance.tsx
+│  │  │  ├─ RevenueChart.tsx
+│  │  │  └─ UserRetention.tsx
+│  │  ├─ common
+│  │  │  ├─ Header.tsx
+│  │  │  └─ StatCard.tsx
+│  │  ├─ orders
+│  │  │  ├─ DailyOrders.tsx
+│  │  │  ├─ OrderDistribution.tsx
+│  │  │  └─ OrdersTable.tsx
+│  │  ├─ overview
+│  │  │  ├─ CategoryDistributionChart.tsx
+│  │  │  ├─ SalesChannelChart.tsx
+│  │  │  └─ SalesOverviewChart.tsx
+│  │  ├─ products
+│  │  │  ├─ ProductTable.tsx
+│  │  │  └─ SalesTrendChart.tsx
+│  │  ├─ sales
+│  │  │  ├─ DailySalesTrend.tsx
+│  │  │  ├─ SalesByCategoryChart.tsx
+│  │  │  └─ SalesOverviewChart.tsx
+│  │  ├─ settings
+│  │  │  ├─ ConnectedAccounts.tsx
+│  │  │  ├─ DangerZone.tsx
+│  │  │  ├─ Notifications.tsx
+│  │  │  ├─ Profile.tsx
+│  │  │  ├─ Security.tsx
+│  │  │  ├─ SettingSection.tsx
+│  │  │  └─ ToggleSwitch.tsx
+│  │  ├─ Sidebar.tsx
+│  │  └─ users
+│  │     ├─ UserActivityHeatMap.tsx
+│  │     ├─ UserDemographicsChart.tsx
+│  │     ├─ UsersGrowthChart.tsx
+│  │     └─ UsersTable.tsx
+│  ├─ main.css
+│  ├─ main.tsx
+│  ├─ pages
+│  │  ├─ AnalyticsPage.tsx
+│  │  ├─ OrdersPage.tsx
+│  │  ├─ OverviewPage.tsx
+│  │  ├─ ProductPage.tsx
+│  │  ├─ SalesPage.tsx
+│  │  ├─ SettingsPage.tsx
+│  │  └─ UsersPage.tsx
+│  └─ vite-env.d.ts
+├─ tsconfig.app.json
+├─ tsconfig.json
+├─ tsconfig.node.json
+└─ vite.config.ts
 ```
 
 ### License
